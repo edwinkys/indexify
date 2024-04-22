@@ -8,6 +8,7 @@ use strum::{Display, EnumString};
 use crate::server_config::{IndexStoreKind, VectorIndexConfig};
 
 pub mod lancedb;
+pub mod oasysdb;
 pub mod open_search;
 pub mod pg_vector;
 pub mod qdrant;

@@ -43,6 +43,7 @@ mime = { version = "0.3" }
 mime_guess = { version = "2" }
 moka = { version = "0.12", features = ["default", "future"] }
 nanoid = { version = "0.4" }
+oasysdb = "0.4"
 openraft = { git = "https://github.com/datafuselabs/openraft.git", rev = "bde63c0", features = [
     "serde",
     "storage-v2",
@@ -150,6 +151,7 @@ mime = { workspace = true }
 mime_guess = { workspace = true }
 moka = { workspace = true }
 nanoid = { workspace = true }
+oasysdb = { workspace = true }
 openraft = { workspace = true }
 opensearch = { workspace = true }
 opentelemetry = { workspace = true }
